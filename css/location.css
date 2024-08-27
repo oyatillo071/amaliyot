@@ -1,0 +1,66 @@
+@import './global.css';
+
+.location__card--bg{
+    background-color:#FDF3F0;
+    width: 730px;
+    height: 300px;
+    margin-top: 12px;
+    padding: 88px 95px;
+    background-image:url(../images/shared/desktop/bg-pattern-two-circles.svg);
+
+}
+.location__addres{
+    display: flex;
+    justify-content: space-between;
+    height: 78px;
+    gap: 10px;
+}
+.location__card__container{
+    display: flex;
+    justify-content: space-between;
+}
+.country__name{
+    color: var(--peach);
+    max-width: 730px;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+
+}
+.location__card a{
+    color:var(--black);
+}
+@media screen and (max-width:958px) {
+    .location__card--bg{
+        width: 100%;
+        height: 100vh;
+        margin-top: 12px;
+        padding: 88px 95px;
+        background-image:url(../images/shared/desktop/bg-pattern-two-circles.svg);
+    
+    }
+    .location__card{
+        margin-bottom: 50px;
+    }
+    .location__addres{
+        flex-direction: column;
+       column-gap:10px;
+    }
+    .location__card__container{
+        flex-direction: column;
+        height: 60vh;
+    }
+    .location__map a{
+        margin-top: 0px;
+        margin-right: 90%;
+        width: 800px;
+        height: 60%;
+    }
+    .location__map img{
+        object-fit: cover;
+        margin-top: 20px;
+        width: 100%;
+        height: 60%;
+    }
+}

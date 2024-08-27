@@ -4,303 +4,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/font.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <!-- <link rel="stylesheet" href="./styles/style-reserve.css"> -->
-    <!-- <link rel="stylesheet" href="./styles/style-min.css"> -->
-    <title>Document</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Designo | Home </title>
+
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
-    <header class="container header__contaner display__flex">
-        <a class="logo" href="#">Exclusive</a>
-        <nav>
-            <ul class="display__flex">
-                <li class="nav__items nav__items1"><a href="#">Home</a></li>
-                <li class="nav__items nav__items2"><a href="#">Contact</a></li>
-                <li class="nav__items nav__items3"><a href="#">About</a></li>
-                <li class="nav__items nav__items4"><a href="#">Sign Up</a></li>
+    <!-- HEADER  -->
+    <header class="header">
+        <section class="container header__container">
+
+
+            <a href="./index.html" target="_blank"> <img class="logo" src="./images/shared/desktop/logo-dark.png"
+                    width="196" height="24" alt="Logo">
+            </a>
+
+            <ul class="nav__bar">
+                <li class="nav__items"><a href="./pages/our-company.html">OUR COMPANY</a></li>
+                <li class="nav__items"><a href="./pages/location.html">LOCATIONS</a></li>
+                <li class="nav__items"><a href="./pages/contact.html">CONTACT</a></li>
             </ul>
-        </nav>
 
-
-        <form action="header__buttons" class="display__flex">
-
-
-                    <div class="search__place display__flex">
-                        <input type="search" class="search__text" placeholder="What are you looking for?">
-                        <input type="image" class="search__img" src="./images/search-icon.svg" width="20" height="18" alt="search icon">
-                    </div>
-
-
-            <div class="display__flex nav__bar">
-                <a href="#"><img src="/images/like-icon.svg" width="28" height="28" alt="like icon"></a>
-                <a href="#"><img src="/images/cart-icon.svg" width="32" height="32" alt="cart icon"></a>
-                <a href="#"><img src="/images/user-icon.svg" width="32" height="32" alt="user icon"></a>
-            </div>
-        </form>
-
+        </section>
 
     </header>
 
-    <div class="container border__bottom"></div>
 
-    <section class="container wishlist__container">
-        <div class="display__flex">
-            <h4 class="wishlist__title">Wishlist (4)</h4>
-            <input class="wishlist__button" type="button" value="Move All To Bag">
+
+
+
+
+
+
+
+
+
+    <!-- Main -->
+    <main class="main">
+
+        <div class="main__page">
+
+            <section class="container main__container">
+                <div class="main__page--left">
+                    <h1 class="main__page--left--title">Award-winning custom designs and digital branding solutions</h1>
+                    <p class="main__page--left--disc">With over 10 years in the industry, we are experienced in creating
+                        fully responsive websites, app design, and engaging brand experiences. Find out more about our
+                        services.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+                <div class=" main__page--right">
+                   
+                </div>
+            </section>
+
         </div>
 
-        <div class="wishlist__cards">
+        <section class="container design__container">
 
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items wishlist__card--items--sale">
-                    <img class="wishlist__card--img wishlist__card--img--bag--padding" src="./images/gucci-bag.png"
-                        width="178" height="129" alt="gucci Bag">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
+            
+            <a href="./pages/web-design.html">
+                <div class="design__card design__card--bg--web">
+                    <h2 class="web__design--title">WEB DESIGN</h2>
+                    <h5 class="web__Design--sub--title">VIEW PROJECTS</h5>
                 </div>
-                <h4>Gucci duffle bag</h4>
-                <h5 class="card__price">$960 <span class="card__price--unserted">$1160</span></h5>
-            </div>
+            </a>
 
+            <div class="design__card--right">
+                <a href="./pages/app-design.html">
 
-
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items">
-                    <img class="wishlist__card--img wishlist__card--img--cooler--padding " src="./images/pc-cooler.png"
-                        width="191" height="95" alt="Rgba PC Cooler">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <h4>RGB liquid CPU Cooler</h4>
-                <h5 class="card__price">$1960</h5>
-            </div>
-
-
-
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items">
-                    <img class="wishlist__card--img wishlist__card--img--gamepad--padding" src="./images/game-pad.png"
-                        width="178" height="150" alt="Game Pad">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <h4>GP11 Shooter USB Gamepad</h4>
-                <h5 class="card__price">$550</h5>
-            </div>
-
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items">
-                    <img class="wishlist__card--img wishlist__card--img--jacket--padding"
-                        src="./images/black-jacket.png" width="182" height="176" alt="Quilited Satin jacked">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <h4>Quilited Satin Jacket</h4>
-                <h5 class="card__price">$750</h5>
-            </div>
-        </div>
-
-
-
-
-        <div class="margin"></div>
-
-
-
-
-
-
-
-
-        <div class="display__flex just__header">
-            <h4 class="just__title just__header--before">Just For You</h4>
-            <input class="wishlist__button wishlist__button--size" type="button" value="See All">
-        </div>
-
-
-
-
-
-
-
-
-    </section>
-
-    <section class="container wishlist__container">
-
-        <div class="wishlist__cards display__flex">
-
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items--just wishlist__card--items--sale ">
-                    <img class="wishlist__card--img laptop__img" src="./images/laptop.png" width="158" height="166"
-                        alt="laptop">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <h4>ASUS FHD Gaming Laptop</h4>
-                <h5 class="card__price">$960 <span class="card__price--unserted">$1160</span></h5>
-                <div class="display__flex stars">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <p>(65)</p>
-                </div>
-            </div>
-
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items--just">
-                    <img class="wishlist__card--img monitor__img" src="./images/msi-display.png" width="170"
-                        height="129" alt="MSI MONITOR">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <br>
-                <h4 class="margin__top__card">IPS LCD Gaming Monitor</h4>
-                <h5 class="card__price">$1160</h5>
-                <div class="display__flex stars">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <p>(65)</p>
-                </div>
-
-            </div>
-            <div class="wishlist__card">
-
-                <div class=" wishlist__card--items--new wishlist__card--items--just ">
-                    <img class="wishlist__card--img red__gamepad__img" src="./images/red-game-pad.png" width="172"
-                        height="152" alt="Red Gamepad">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <div>
-                    <h4>HAVIT HV-G92 Gameoad</h4>
-                    <h5 class="card__price">$560</h5>
-                    <div class="display__flex stars">
-                        <img src="./images/star.svg" width="20" height="20" alt="star">
-                        <img src="./images/star.svg" width="20" height="20" alt="star">
-                        <img src="./images/star.svg" width="20" height="20" alt="star">
-                        <img src="./images/star.svg" width="20" height="20" alt="star">
-                        <img src="./images/star.svg" width="20" height="20" alt="star">
-                        <p>(65)</p>
+                    <div class="design__card design__card--bg--app">
+                        <h2 class="web__design--title">APP DESIGN</h2>
+                        <h5 class="web__Design--sub--title">VIEW PROJECTS</h5>
                     </div>
-
-                </div>
-            </div>
-            <div class="wishlist__card">
-
-                <div class="wishlist__card--items--just  ">
-                    <img class="wishlist__card--img keyboard__img" src="./images/keyboard.png" width="191" height="101"
-                        alt="keyboard photo">
-
-                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
-                            alt="Cart">Add To Card</a>
-                </div>
-                <br>
-                <h4>AK-900 Wired Keyboard</h4>
-                <h5 class="card__price">$200</h5>
-                <div class="display__flex stars">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <img src="./images/star.svg" width="20" height="20" alt="star">
-                    <p>(65)</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="margin-bottom"></div>
-    </section>
-
-    <footer>
-        <div class="container footer__container">
-
-
-
-            <ul class="footer__logo-section">
-                <a class="logo" href="#">Exclusive</a>   
                     
-                <li class="list-items list__items1"><a href="#"><br>Subscribe <br></a></li>
-                <li class="list-items list__items2"><a href="#">Get 10% of yor first order</a></li>
+                </a>
 
-                <form action="send email" class="footer__email display__flex">
-                    <input class="enter__email__input" type="email" name="email" id="email" placeholder="Enter your email">
-                    <input class="enter__email__img" type="image" src="./images/email-footer-send.svg" width="20" height="18" alt="send button">
-                </form>
-            </ul>
-            <ul>
-                <li class="list-items list__items1"><a href="#">Support</a></li>
-                <li class="list-items list__items2"><a href="#">111 Bijoy sarani,Dhaka,GH 1515, Bangladesh</a></li>
-                <li class="list-items list__items3"><a href="mailto:exclusive@gmail.com">exclusive@gmail.com</a></li>
-                <li class="list-items list__items4"><a href="tel:+88015-88888-9999">+88015-88888-9999</a></li>
-            </ul>
-            <ul>
-                <li class="list-items list__items1"><a href="#">Account</a></li>
-                <li class="list-items list__items2"><a href="#">My account</a></li>
-                <li class="list-items list__items3"><a href="#">Login / Register</a></li>
-                <li class="list-items list__items4"><a href="#">Cart</a></li>
-                <li class="list-items list__items5"><a href="#">Wishlist</a></li>
-                <li class="list-items list__items5"><a href="#">Shop</a></li>
-            </ul>
+                <a href="./pages/graphic-design.html">
 
-            <ul class="list__item">
-                <li class="list-items list__items1"><a href="#">Quick Link</a></li>
-                <li class="list-items list__items2"><a href="#">Privacy Policy</a></li>
-                <li class="list-items list__items3"><a href="#">Terms Of Use</a></li>
-                <li class="list-items list__items4"><a href="#">FAQ</a></li>
-                <li class="list-items list__items5"><a href="#">Contact</a></li>
-            </ul>
-            <div class="download">
-                <a class="download-title" href="#">Download App</a>
-                <p class="download-disc" >Save $3 with App New User Only</p>
-                <div class="display__flex">
-                    <img class="qr__code" src="./images/qr-code.svg" width="76" height="76" alt="Qr Code">
-                    <div>
-
-                        <a class="download__link" href="#"><img src="./images/download-google-play.svg" width="104"
-                             height="30" alt="Google play logo"></a>
-                        <a  href="#"><img src="./images/download-appstore.svg" width="104" height="30" alt="App Story"></a>
+                    <div class="design__card design__card--bg--graphic">
+                        <h2 class="web__design--title">GRAPHIC DESIGN</h2>
+                        <h5 class="web__Design--sub--title">VIEW PROJECTS</h5>
                     </div>
-                </div>
-                    <div class="display__flex footer__social__icons">
-                        <a href="#"><img src="./images/facebook-icon.svg" alt="facebook"></a>
-                        <a href="#"><img src="./images/twitter-footer.svg" alt="twitter"></a>
-                        <a href="#"><img src="./images/icon-instagram.svg" alt="instagram"></a>
-                        <a href="#"><img src="./images/Icon-Linkedin.svg" alt="linkedin"></a>
-                    </div>
-                
+                </a>
+
             </div>
 
+        </section>
+
+
+
+        <section class="container info__cards__container">
+
+
+            <div class="info__card">
+                <img class="inf0__card--img" src="./images/home/desktop/illustration-passionate.svg" width="202"
+                    height="202" alt="people img">
+                <h4 class="info__card--title">PASSIONATE</h4>
+                <p class="info__card--disc">Each project starts with an in-depth brand research to ensure we only create
+                    products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
+            </div>
+
+            <div class="info__card">
+                <img class="inf0__card--img" src="./images/home/desktop/illustration-resourceful.svg" width="202"
+                    height="202" alt="people img">
+                <h4 class="info__card--title">RESOURCEFUL</h4>
+                <p class="info__card--disc">Everything that we do has a strategic purpose. We use an agile approach in
+                    all of our projects and value customer collaboration. It guarantees superior results that fulfill
+                    our clients’ needs.</p>
+            </div>
+            <div class="info__card">
+                <img class="inf0__card--img" src="./images/home/desktop/illustration-friendly.svg" width="202"
+                    height="202" alt="people img">
+                <h4 class="info__card--title">FRIENDLY</h4>
+                <p class="info__card--disc">We are a group of enthusiastic folks who know how to put people first. Our
+                    success depends on our customers, and we strive to give them the best experience a company can
+                    provide.</p>
+            </div>
+
+
+
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container footer--sub__container">
+        <div>
+            <h2 class="footer__sub--title">Let's talk about your project</h2>
+
+            <p class="footer--sub__disc">Ready to take it to the next level? Contact us today and find out how our
+                expertise can help your
+                business grow.
+            </p>
         </div>
-        <div class="container">
-            <p style="color: rgb(255, 255, 255);opacity: 0.5; width: 311px; text-align: center; margin-left: 400px;">Copyright Rimel 2022.All right reserved</p>
+        <button class="footer--btn">Get In Touch</button>
+    </div>
+    <footer class="footer">
+        <div class="footer__container container">
+
+
+            <header class="header">
+                <section class="header__container">
+                    <img class="logo" src="./images/shared/desktop/logo-light.png" width="196" height="24" alt="Logo">
+
+
+                    <ul class="nav__bar">
+                        <li class="nav__items"><a href="./pages/our-company.html">OUR COMPANY</a></li>
+                        <li class="nav__items"><a href="./pages/location.html">LOCATIONS</a></li>
+                        <li class="nav__items"><a href="./pages/contact.html">CONTACT</a></li>
+                    </ul>
+                </section>
+
+            </header>
+
+            <div class="footer__items">
+                <a class="foot__addres" href="#">
+                    Designo Central Office
+                    3886 Wellington Street
+                    Toronto, Ontario M9C 3j5
+                </a>
+
+                <ul class="foot__list">
+                    <li class="foot__list__items"><a href="#">Contact us (Central Office)</a></li>
+                    <li class="foot__list__items"><a href="tel:+1 253-856-8967">P : +1 253-856-8967</a></li>
+                    <li class="foot__list__items"><a href="mailto:contact@gmail.com">M : contact@design.co</a></li>
+                </ul>
+
+                <div class="social__icons">
+                    <a href="#"><img src="./images/shared/desktop/icon-facebook.svg" alt="facebook icon"></a>
+                    <a href="#"><img src="./images/shared/desktop/icon-youtube.svg" alt="you tube icon"></a>
+                    <a href="#"><img src="./images/shared/desktop/icon-twitter.svg" alt="twitter icon"></a>
+                    <a href="#"><img src="./images/shared/desktop/icon-pinterest.svg" alt="pinterest icon"></a>
+                    <a href="#"><img src="./images/shared/desktop/icon-instagram.svg" alt="instagram icon"></a>
+                </div>
+            </div>
         </div>
+        </div>
+
+
     </footer>
 
-    
+
+
 </body>
 
 </html>

@@ -1,0 +1,67 @@
+@import './font.css';
+@import './normalize.css';
+@import './variables.css';
+@import './nav-bar.css';
+@import './footer.css';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    flex-grow: 1;
+}
+.container {
+    max-width: 1211px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+img{
+    object-fit: contain;
+
+}
+a{
+    display: inline-block;
+}
+
+html{
+    color: var(--dark-grey);
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color:var(--light-peach);
+}
+
+a {
+   text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+
+text-decoration: underline;
+}
+
+.nav__items--visit{
+    color: var(--peach);
+    text-decoration: underline;
+}
